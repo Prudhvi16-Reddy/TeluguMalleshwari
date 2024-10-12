@@ -1,0 +1,110 @@
+/* Common styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header, footer {
+    background-color: rgba(255, 64, 129, 0.8);
+    color: white;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Page-specific styles */
+.home {
+
+    background-image: url('../MalliPhotos/min.avif');
+    font-family: 'Tahoma', sans-serif; /* Font for photo 3 page */
+    color: lightyellow; /* Font color for photo 3 page */
+}
+.gall{
+    font-family: 'Tahoma', sans-serif; /* Font for photo 3 page */
+    color: lavender; /* Font color for photo 3 page */
+}
+
+.gallery {
+    font-family: 'Tahoma', sans-serif; /* Font for photo 3 page */
+    color: lavender; /* Font color for photo 3 page */
+
+    background-image: url('../MalliPhotos/radhkrishan.jpg');
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    font-family: 'Verdana', sans-serif; /* Font for gallery page */
+}
+
+.Messages {
+    background-image: url('../MalliPhotos/radha.jpg');
+}
+
+.songs {
+    background-image: url('../MalliPhotos/kriradh.jpg');
+}
+
+/* Styles for images */
+.hero-image {
+    max-height: 600px; /* Limit height to fit in grid */
+}
+
+/* Styles for two photos */
+.two-photos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3px;
+}
+
+/* Empty cell for alignment */
+.empty-cell {
+    background-color: transparent; /* Transparent background */
+}
+
+/* Font styles for individual pages */
+.malli1 {
+    font-family: 'Georgia', serif; /* Font for photo 1 page */
+    color: lightgreen; /* Font color for photo 1 page */
+}
+
+.malli2 {
+    font-family: 'Courier New', monospace; /* Font for photo 2 page */
+    color: mediumslateblue; /* Font color for photo 2 page */
+}
+
+.malli3 {
+    font-family: 'Tahoma', sans-serif; /* Font for photo 3 page */
+    color: red; /* Font color for photo 3 page */
+}
